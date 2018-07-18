@@ -1,0 +1,29 @@
+{
+  "name": "ntlm-proxy-agent",
+  "version": "1.0.0",
+  "description": "An agent-base implementation using request-ntlm-lite",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallasfmorais/node-ntlm-proxy-agent.git"
+  },
+  "author": "Wallas F. Morais",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wallasfmorais/node-ntlm-proxy-agent/issues"
+  },
+  "homepage": "https://github.com/wallasfmorais/node-ntlm-proxy-agent#readme",
+  "dependencies": {
+    "agent": "^0.2.1",
+    "http": "0.0.0",
+    "net": "^1.0.2",
+    "tls": "0.0.1",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
